@@ -1,0 +1,195 @@
+/* font Oswald */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/* Navigation */
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.relative {
+    display: block;
+    position: relative;
+}
+/* banner-img */
+.banner-img {
+    background:linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 1.0)), rgba(255, 255, 255, 0.5) url('../images/alpine.jpg');
+    background-image: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30em;
+    text-align: center;
+    color: white;
+}
+.banner-img h2 {
+    padding-top: 1.75em;
+}
+.template {
+    padding-top: 3em; 
+}
+.banner-img .btn {
+    border-radius: 50px;
+    background-color: #25365d; 
+    border: none;
+}
+p.banner-text {
+    color: #bbd8ff;
+}
+
+.button {
+    margin-bottom: 120px;
+    border-radius: 50px;
+    background-color: #25365d; 
+    border: none;
+    margin: 2em 0 2em 0;
+}
+ /* download-it */
+.download-it  {
+    padding: 1.75em 1.75em 3em 1.75em;
+}
+.download-it h3 {
+    margin-top: 2em;
+}
+.download-it ul {
+    padding: 0;
+}
+.download-it li {
+    list-style-type: none;
+}
+div.notebook {
+    display: flex;
+    padding-top: 2em;
+    align-items: center;
+}
+.capitalize {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #25365d;
+    text-transform: uppercase;
+}
+
+/* features */
+.features {
+    background-color: #f7f9fb;
+    padding: 5% 0;
+}
+.features h3 {
+    text-transform: uppercase;
+    color: #25365d;
+}
+
+/* product */
+.product {
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+.product h2 {
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+.product img {
+    width: 60%;
+    height: 100%;
+}
+.media {
+padding: 1em;
+}
+.media img {
+    width: 50px;
+}
+.media img.phone {
+    width: 40px;
+    height: 100%;
+}
+/* plans section */
+#plans {
+    text-align: center;
+    background: #f7f9fb;
+    padding-bottom: 3%;
+}
+#plans h3 {
+    color: #25365d;
+    padding-top: 3%;
+}
+.price {
+    background-color: #fff;
+    text-align: center;
+    line-height: 2rem;
+    max-width: 30%;
+    height: 175px;
+    margin-right: 1.5em;
+    padding: 0px;
+    padding-top: 1em;
+}
+.price:last-child {
+    margin-right: 0px;
+}
+@media(max-width: 777px) {
+    .price {
+        height: 100%;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-top: 10px;
+        padding: 5px 0px;
+    }
+}
+.price .dollar{
+    color: #25365d;
+    font-size: 2em;
+}
+.price h5 {
+    font-weight: 400;
+}
+.price h4, .price h5, .price p {
+    display: block;
+}
+.flexi {
+    display: flex;
+    align-content: center;
+}
+/* contact-info section */
+.contact-info {
+   color: #25365d; 
+}
+.contact-info h3 {
+    padding: 1.4em 0 .8em 0;
+}
+.contact-info p.lead {
+   color: #000; 
+    font-size: .95rem;
+}
+.contact-info img {
+    padding-top: 30px;
+}
+.contact-info .col-md-6 {
+    padding-bottom: 40px;
+}
+.download {
+    text-align: center;
+    margin-top: 85px;
+}
+.download h3 {
+    color: #25365d;
+    margin-bottom: 1em;
+}
+.download .btn {
+    border-radius: 3.5em;
+    background-color: #25365d; 
+    border: none;
+    margin: 2em 0 2em 0;
+}
+
+.footer-img {
+    width: 100%;
+    height: 30em;
+    background: 
+    linear-gradient(rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.0)), rgba(255, 255, 255, 0.5) url('../images/mountains-footer.jpg') center center no-repeat;
+    background-image: cover; 
+    margin: 0 auto;
+}
